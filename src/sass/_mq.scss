@@ -22,6 +22,11 @@
   }
 }
 
+
+
+
+
+
 @media screen and (max-width: 375px) {
   h1.logo {
     // font-size: 12px;
@@ -37,4 +42,78 @@
     min-height: 150px;
     max-height: 200px;
   }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 555px) {
+  #header, #header2 {
+    border: 1px solid black;
+    background-color: snow;
+    margin: 0 2%;
+  }
+  .main-div {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    img.banner {
+      grid-column: 1 / 3;
+    }
+  }
+  .footer {
+    display: flex !important;
+  }
+  .footer img {
+    display: none !important;
+  }
+  .mobile-button-box {
+    display: none !important;
+  }
+  .provided-image-container {
+    display: none !important;
+  }
+  #confused-guys {
+    margin-top: 10%;
+  }
+  .body {
+    margin: 1% 2% 0 2%;
+    border: 1px solid black;
+    background-color: snow;
+    grid-column: 1 / 3;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .body-option {
+      display: flex;
+      margin: 2% 3%;
+      margin-left: 10%;
+      flex-direction: column;
+      text-align: center;
+      img {
+        width: 90%;
+
+      }
+    }
+  }
+  .body-2 {
+    justify-content: center;
+    grid-column: 1 / 3;
+    display: flex !important;
+    width: 96%;
+    margin: 5% auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: snow;
+    img {
+      width: 70%;
+    }
+  }
+  .banner {
+    display: none;
+  }
+
 }

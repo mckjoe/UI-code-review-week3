@@ -3,6 +3,17 @@
 .banner {
   margin-bottom: 0;
   width: 100%;
+  height: 150px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: snow;
+}
+
+.body {
+  display: none;
+}
+.body-2 {
+  display: none;
 }
 
 .home-main {
@@ -30,4 +41,12 @@
   img {
     width: 95%;
   }
+}
+.memo {
+  grid-column: 1 / 3;
+  width: 98%;
+  background-color: #113322;
+  color: white;
+  padding: 15px;
+  margin: 0 auto;
 }
