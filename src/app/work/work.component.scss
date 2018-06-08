@@ -1,0 +1,30 @@
+.work-page {
+  text-align: center;
+  margin: 0 auto;
+  h3 {
+    text-align: center;
+  }
+  img {
+    width: 98%;
+  }
+  .box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px 25px;
+    width: 98%;
+    margin: 0 auto;
+    }
+    .box:last-of-type {
+      margin-top: 10px;
+    }
+    ul {
+      list-style: none;
+      text-align: left;
+    }
+    li {
+      margin-top: 3%;
+    }
+  }
+  img {
+    margin-top: 15px;
+}
