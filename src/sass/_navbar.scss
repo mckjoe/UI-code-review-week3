@@ -25,6 +25,9 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   /*hamburger icon*/

@@ -1,0 +1,23 @@
+h3 {
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  .info {
+
+  }
+  .phone-image {
+
+  }
+  p {
+    text-align: center;
+  }
+  img {
+    width: 98%;
+  }
+  .info {
+    margin-top: 2%;
+  }
+}
