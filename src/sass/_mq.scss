@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px) {
+  header {
+    display: none;
+  }
+  .header-two {
+    display: block;
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+    li {
+      list-style: none;
+    }
+  }
+
+}
