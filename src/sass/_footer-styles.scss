@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img {
+    width: 90%;
+    margin: 0 5%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around;
+    list-style: none;
+    text-align: center;
+  }
+}

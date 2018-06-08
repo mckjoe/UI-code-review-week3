@@ -1,6 +1,7 @@
 @import "../../sass/variables";
 
 .banner {
+  margin-bottom: 0;
   width: 100%;
 }
 
@@ -12,7 +13,7 @@
     flex-direction: column;
     background-color: $font-color;
     width: 100%;
-    min-height: 150px;
+    min-height: 100px;
     margin: 2%;
     justify-content: center;
     align-items: center;
