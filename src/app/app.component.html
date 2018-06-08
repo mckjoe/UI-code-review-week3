@@ -1,13 +1,30 @@
-<!-- header will go here -->
-<ul>
-  <li><a routerLink="contact">Contact</a></li>
-  <li><a routerLink="fun">Fun</a></li>
-  <li><a routerLink="news">News</a></li>
-  <li><a routerLink="what">What</a></li>
-  <li><a routerLink="who">Who</a></li>
-  <li><a routerLink="work">Work</a></li>
-</ul>
-<!-- router outlet here -->
-<h1><a routerLink="">Joe's App</a></h1>
+<header>
+  <h1 class="logo"><a routerLink="">Joe's App</a></h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul id="nav-list">
+      <li><a routerLink="who">Who</a></li>
+      <li><a routerLink="work">Work</a></li>
+      <li><a routerLink="what">What</a></li>
+      <li><a routerLink="fun">Fun</a></li>
+      <li><a routerLink="news">News</a></li>
+      <li><a routerLink="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+<div class="header-two">
+  <h1 class="logo"><a routerLink="">Joe's App</a></h1>
+  <ul>
+    <li><a routerLink="who">Who</a></li>
+    <li><a routerLink="work">Work</a></li>
+    <li><a routerLink="what">What</a></li>
+    <li><a routerLink="fun">Fun</a></li>
+    <li><a routerLink="news">News</a></li>
+    <li><a routerLink="contact">Contact</a></li>
+  </ul>
+</div>
+<br>
 <router-outlet></router-outlet>
-<!-- footer will go here -->

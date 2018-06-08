@@ -1,7 +1,4 @@
-// add imports here for sass partials
-
-
-// add sass styling here
-* {
-    color: red
-  }
+@import "./globalstyles";
+@import "./navbar";
+@import "./variables";
+@import "mq";

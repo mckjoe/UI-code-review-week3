@@ -1,0 +1,87 @@
+.header-two {
+  display: none;
+}
+header {
+  text-align: center;
+  position: relative;
+  width: 100%;
+
+  /*hiding and plcing checkbox*/
+  .nav-toggle {
+    display: none;
+  }
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  /*hamburger icon*/
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after{
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+  }
+
+  .nav-toggle-label span::before {
+    bottom: 7px;
+  }
+
+  .nav-toggle-label span::after {
+    top: 7px;
+  }
+  nav {
+    position: absolute;
+    text-align: left;
+    background-color: #193A2C;
+    width: 50%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+    border-radius: 2px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    &:hover {
+      color: #000;
+    }
+  }
+  .nav-toggle:checked ~ nav {
+    transform: scale(1,1);
+  }
+  .nav-toggle:checked ~ nav a{
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
+}
