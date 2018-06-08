@@ -1,3 +1,32 @@
+@import "../../sass/variables";
+
 .banner {
   width: 100%;
+}
+
+.home-main {
+  display: flex;
+  width: 100%;
+  .mobile-button-box {
+    display: flex;
+    flex-direction: column;
+    background-color: $font-color;
+    width: 100%;
+    min-height: 150px;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    color: $backgroundcolor;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+.provided-image-container {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  img {
+    width: 95%;
+  }
 }
